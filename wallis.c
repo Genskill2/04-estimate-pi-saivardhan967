@@ -14,7 +14,7 @@ int main(void) {
       abort();
     }
   }
-
+ 
   for (int i=500; i<3000; i++) {
     pi = wallis_pi(i);
     if (!(fabs(pi - M_PI) < 0.01)) {
